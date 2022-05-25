@@ -32,6 +32,11 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'users',
+    'pages',
+    'articles',
+    
+    'bootstrap4',
+    'crispy_forms',
     
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,9 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'pages',
-    'bootstrap4',
-    'crispy_forms',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
